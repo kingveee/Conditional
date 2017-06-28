@@ -75,50 +75,50 @@ namespace Conditional
 
 
 
+            Console.WriteLine("Please enter a number from word form");
+            string numberWord = Console.ReadLine();
 
-            Console.WriteLine("Please enter a number");
-
-            string zeroToSeven = "seven";
-            switch (zeroToSeven)
+         
+            switch (numberWord)
 
             {
                 case "zero":
-                    Console.WriteLine("0 to zero");
+                    Console.WriteLine("0 ");
                     break;
 
                 case "one":
-                    Console.WriteLine("1 to one");
+                    Console.WriteLine("1");
                     break;
 
                 case "two":
-                    Console.WriteLine("2 to two");
+                    Console.WriteLine("2");
                     break;
 
                 case "three":
-                    Console.WriteLine("3 to three");
+                    Console.WriteLine("3");
                     break;
 
                 case "four":
-                    Console.WriteLine("4 to four");
+                    Console.WriteLine("4");
                     break;
 
                 case "five":
-                    Console.WriteLine("5 to five");
+                    Console.WriteLine("5");
                     break;
 
                 case "six":
-                    Console.WriteLine("6 to six");
+                    Console.WriteLine("6");
                     break;
 
                 case "seven":
-                    Console.WriteLine("7 to seven");
+                    Console.WriteLine("7");
                     break;
 
                 default:
                     Console.WriteLine("invalid");
                     break;
 
-
+                    
 
 
 
